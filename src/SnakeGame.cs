@@ -48,6 +48,7 @@ namespace Leboeuf.SnakeExtension
         {
             Canvas = canvas;
             timer.Tick += Tick;
+            SnakeGame.Reset();
         }
 
         public static void ChangeDirection(MovingDirection direction)
